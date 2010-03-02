@@ -1,0 +1,7 @@
+*~
+install.php
+*.htaccess
+*/logs/
+application/config/*
+*.bak
+*.test.*
