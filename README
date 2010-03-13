@@ -7,9 +7,17 @@
          e-shop project                     *
 -----------------------------------------------
 
-= To get repository =
+= Чтобы получить репозиторий и конфиги = 
 
 you@localhost:~$ git clone git@github.com:proxor/madnmagic.git
 you@localhost:~$ cd madnmagic/
 you@localhost:~/madnmagic$ git pull origin default_configs:configs
 you@localhost:~/madnmagic$ git pull origin database_dump:database
+
+= Чтобы внести правки =
+you@localhost:~/madnmagic$ git checkout -b yourname_dev
+you@localhost:~/madnmagic$ <DO SOMETHING>
+you@localhost:~/madnmagic$ git pull origin 
+you@localhost:~/madnmagic$ git merge master 
+you@localhost:~/madnmagic$ <SOLVE PROBLEMS IF EXISTS> 
+you@localhost:~/madnmagic$ git push origin yourname_dev 
