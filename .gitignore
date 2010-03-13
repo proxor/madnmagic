@@ -1,6 +1,6 @@
 *~
+*.swp
 install.php
-*.htaccess
 */logs/*
 application/config/*
 *.bak
