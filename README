@@ -1,0 +1,14 @@
+                              /\
+=============================###>  *
+                              \/ *  *
+                                * *    *
+                                 *   *    *
+         MAD'N'MAGIC                *    *
+         e-shop project                     *
+-----------------------------------------------
+
+= To get repository =
+
+you@localhost:~$ git clone git@github.com:proxor/madnmagic.git
+you@localhost:~$ cd madnmagic/
+you@localhost:~/madnmagic$ git pull origin default_configs:configs
