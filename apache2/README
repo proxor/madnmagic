@@ -1,0 +1,7 @@
+# For Debian users
+# ./madnmagic is a config for virtualhost
+# Replace YOUR_PATH with full path to madnmagic
+sudo cp ./madnmagic /etc/apache2/sites-available/
+sudo ln -s /etc/apache2/sites-available/madnmagic /etc/apache2/sites-enabled/
+
+# Add "127.0.0.1 madnmagic" to /etc/hosts
