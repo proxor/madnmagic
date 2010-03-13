@@ -1,7 +1,7 @@
 *~
 install.php
 *.htaccess
-*/logs/
+*/logs/*
 application/config/*
 *.bak
 *.test.*
