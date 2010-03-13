@@ -5,3 +5,4 @@ install.php
 application/config/*
 *.bak
 *.test.*
+*.sql

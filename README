@@ -12,3 +12,4 @@
 you@localhost:~$ git clone git@github.com:proxor/madnmagic.git
 you@localhost:~$ cd madnmagic/
 you@localhost:~/madnmagic$ git pull origin default_configs:configs
+you@localhost:~/madnmagic$ git pull origin database_dump:database
